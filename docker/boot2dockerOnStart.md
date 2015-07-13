@@ -38,9 +38,3 @@ chmod +x /Applications/Docker/initialize_docker.sh
 
 ## Load the .plist file
 ``` launchctl load ~/Library/LaunchAgents/com.user.boot2docker.plist
-
-
-# Cleaning
-
-## Remove untagged docker images
-docker rmi $(docker images |grep \<none\> |awk '{print $3}')<F37>
