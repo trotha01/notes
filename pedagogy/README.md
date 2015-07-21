@@ -14,6 +14,11 @@ http://www.bbc.com/future/story/20150429-how-to-learn-with-zero-effort
 
 In search of the easiest, most effective way to memorize new information
 
+# Education at Google
+
+### Google Online Science Camp
+https://camp.withgoogle.com/
+
 # Research
 
 ## Memory Improvement w/o effort
