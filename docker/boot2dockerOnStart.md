@@ -1,4 +1,16 @@
 # Start boot2docker on load (osx)
+ $ brew info boot2docker
+...
+==> Caveats
+To have launchd start boot2docker at login:
+    ln -sfv /usr/local/opt/boot2docker/*.plist ~/Library/LaunchAgents
+Then to load boot2docker now:
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.boot2docker.plist
+
+
+# Old start boot2docker on load
+Not needed if the steps above worked
+
 pieces taken from 
 http://blog.amussey.com/post/85117547548/docker-starting-docker-on-system-boot-on-osx-via
 
