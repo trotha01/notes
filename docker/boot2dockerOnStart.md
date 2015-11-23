@@ -1,5 +1,6 @@
 # Start boot2docker on load (osx)
-```$ brew info boot2docker
+```
+$ brew info boot2docker
 ...
 ==> Caveats
 To have launchd start boot2docker at login:
