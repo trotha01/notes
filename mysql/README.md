@@ -8,15 +8,15 @@ http://www.tutorialspoint.com/mysql/mysql-data-types.htm
 
 # Creating a Table
 create table bar (
-	id UNSIGNED INT NOT NULL AUTO_INCREMENT,,
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,,
 	name VARCHAR(255),
 	PRIMARY KEY (ID)
 )
 
 create table table_name (
 	column_name TYPE,
-	id UNSIGNED INT NOT NULL AUTO_INCREMENT,,
-	foo UNSIGNED INT,
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,,
+	foo INT UNSIGNED,
 	PRIMARY KEY (id),
 	FOREIGN KEY (foo) REFERENCES BAR(id)
 );
